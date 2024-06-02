@@ -21,5 +21,29 @@
 <img src="./imagens/tela005.png">
 
 ### Clicando em Movimentação, submenu Saída, o usuário seleciona o produto que deseja repassar. <br> Na segunda caixa de texto ele digita a quantidade do produto escolhido e terceira caixa ele seleciona o destino deste produto.
-  > O comando de inserção na tabela "estoque" é identico ao comando usado na entrada. <br> As únicas diferenças é que no comando de entrada, o destino é fixo (11-Almoxarifado) e no comando de saída, a variável que captura a quantidade é convertido para valor negativo.
+  > O comando de inserção na tabela "estoque" é identico ao comando usado na entrada. <br> As únicas diferenças é que no comando de entrada, o destino é fixo (11-Almoxarifado) e no comando de saída, a variável que captura a quantidade é convertido para valor negativo.<p>
 > <img src="./imagens/tela006.png">
+
+### Pra finalizar, chegamos ao botão Relatórios, onde possui três opções prontas (podendo ser adicionadas mais opções, conforme a necessidade).
+<br><img src="./imagens/tela007.png">
+
+### A primeira opção, "Por Destino", é utilizada para verificar todos os materias entregues para determinado setor.
+<img src="./imagens/tela008.png">
+
+  > Exemplo do resultado de um Relatório por Destino.
+
+<br><img src="./imagens/tela009.png">
+
+### A segunda opção, "Por Material", é utilizada para verificar determinado material entregue a todos os setores.
+<img src="./imagens/tela010.png">
+
+  > Exemplo do resultado de um Relatório por Material.
+
+<br><img src="./imagens/tela011.png">
+
+### A terceira opção, "Por Período", é utilizada para verificar todos os materiais entregue a todos os setores por um determinado período.
+  > Nos campos a preencher, foi criada uma regra para não deixar avançar se não preencher os dois campos
+  >  e outra regra para comparar se o segundo campo está com data menor que o primeiro, bloqueando também.
+<img src="./imagens/tela012.png">
+
+  > Exemplo do resultado de um Relatório por Período.
