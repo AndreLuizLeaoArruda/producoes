@@ -1,8 +1,10 @@
 # <center> CONTROLE DE PRODUTOS DO 1º BATALHÃO DE POLÍCIA MILITAR </center>
   ## Este sistema, desenvolvido em PHP com MySql, consiste em registrar as entradas e saídas de mercadorias para fins de controle. 
- <img height="400" src="./imagens/tela001.png">
+ <img height="400" src="./imagens/tela01.png">
 
-### Esta é a tela principal. <br> O sistema é relativamente simples e tem as opções de cadastros de classificação, de destino, de unidade de medida, de material e de usuários, além dos Relatórios. Para cadastrar o material, é preciso cadastrar antes a unidade de medida e a classificação, caso ainda não tenham sido cadastrados. E na opção Movimentação, fazem-se as entradas e saídas das mercadorias.</h3>
+### Esta é a tela principal. <br> O sistema é relativamente simples e tem as opções de cadastros de classificação, de destino, de unidade de medida, de material e de usuários, além dos Relatórios. <br> Para cadastrar o material, é preciso cadastrar antes a unidade de medida e a classificação, caso ainda não tenham sido cadastrados. E na opção Movimentação, fazem-se as entradas e saídas das mercadorias.</h3>
+  > Nesta tela há, também, a opção de fazer um backup do banco de dados. O arquivo gerado irá para a pasta downloads.
+     
 <img src="./imagens/tela002.png">
 
 ### Clicando em Movimentação, submenu Entrada, o usuário seleciona o produto que deseja cadastrar e na segunda caixa de texto ele digita a quantidade do produto escolhido.
@@ -44,6 +46,6 @@
 ### A terceira opção, "Por Período", é utilizada para verificar todos os materiais entregue a todos os setores por um determinado período.
   > Nos campos a preencher, foi criada uma regra para não deixar avançar se não preencher os dois campos
   >  e outra regra para comparar se o segundo campo está com data menor que o primeiro, bloqueando também.
-<img src="./imagens/tela012.png">
+<img src="./imagens/tela12.png">
 
   > Exemplo do resultado de um Relatório por Período.
